@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Question 1</title>
+  <style>
+    body {
+      background-color: red;
+      text-align: center;            
+    }
+    
+    .logo {
+      margin: 10px auto;
+      width: 50%;
+      padding: 10px;
+    }
+    
+    .cat {
+      animation: bounce 5s infinite;
+    }
+
+    @keyframes bounce {
+      0%, 100% {
+        transform: translateY(0);
+      }  
+      50% {
+        transform: translateY(-50px);
+      }
+    }
+    
+    @media (max-width: 600px){
+      body {
+        background-color: red;
+      }
+    }
+    .container {
+      display: inline-block;
+      background-color: white;
+      padding: 10px;
+      margin: 10px;
+      border-radius: 5px;
+      width: 200px;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="logo">
+    <img class="cat" src="cat.png" width="200px" height="200px" alt="cat">
+  </div>
+  <div class="container">
+    <h1>Meow 1 </h1>
+  </div>
+  <div class="container">
+    <h1>Meow 2 </h1>
+  </div>
+  <div class="container">
+    <h1>Meow 3 </h1>
+  </div>
+
+</body>
+</html>

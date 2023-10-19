@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apple Delivery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<header>
+  <div class="header">
+    <h1>Apple Delivery</h1>
+    <div class="header-right">
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Order</a></li>
+          <li><a href="#">Contact</a></li>  
+          <li><a href="#">About US</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<body>
+
+  <div class="intro">
+    <h1>Your Food is our priority!!!</h1>
+    <p>Enjoy your wonderful meal!</p>
+    <img class="pizza" src="pizza.png" style="" width="200px" height="200px" alt="pizza">
+  </div>
+  <div class="main">
+    <div class="container">
+        <h1>KFC</h1>
+        <img src="KFC.png" width="200px" height="200px" alt="pizza">
+        <br>
+        <br>
+        <button type="submit">Order Now</button>
+    </div>
+    <div class="container">
+        <h1>Udon</h1>
+        <img src="udon.png" width="200px" height="200px" alt="pizza">
+        <br>
+        <br>
+        <button type="submit">Order Now</button>
+    </div>
+    <div class="container">
+        <h1>abranica Cafe</h1>
+        <img src="coffee.png" width="200px" height="200px" alt="pizza">
+        <br>
+        <br>
+        <button type="submit">Order Now</button>
+    </div>
+    <div class="container">
+        <h1>gongcha</h1>
+        <img src="gongcha.png" width="200px" height="200px" alt="pizza">
+        <br>
+        <br>
+        <button type="submit">Order Now</button>
+    </div>
+    <div class="container">
+        <h1>Kungfu</h1>
+        <img src="kungfu.jpg" width="200px" height="200px" alt="pizza">
+        <br>
+    
+        <br>
+        <button type="submit">Order Now</button>
+    </div>
+    <div class="container">
+        <h1>PVK</h1>
+        <img src="pvk.jpg" width="200px" height="200px" alt="pizza">
+        <br>
+        <br>
+        <button type="submit">Order Now</button>
+    </div>
+    
+
+
+    
+</div>
+  
+
+
+
+
+</body>
+<script>
+    // Get all the "Order Now" buttons
+    const orderButtons = document.querySelectorAll('button');
+
+    // Add click event listener to each button
+    orderButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        alert('Order placed! Your food will be delivered soon.'); 
+      });
+    });
+  </script>
+
+</html>
